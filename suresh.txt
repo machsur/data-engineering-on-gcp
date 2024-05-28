@@ -1,4 +1,10 @@
 
 =========
 Databricks: big data processing
+1. signup for databricks from marketplace to use on GCP. then page redirected to workspaces.
+2. create databricks workspace on GCP
+   data bricks run on cloud platform and utilizes some resorces from underlying gcp project.
+3. open workspace UI and spin up databrick clusters on GCP.(cluster mode, node type, runtime version-scala,spark)
+4. getting started with databrick notebook on cluster. (do developement using python code and use magic commands to interact with databricks fs)
+
 
