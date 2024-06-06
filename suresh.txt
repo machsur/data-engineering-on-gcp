@@ -1,3 +1,12 @@
+==============
+
+set up environment:
+setup python and configure environment variable.
+setup VS code
+integrate vs code with python by installing python extension on vs code...
+download git repo onto our local machine (https://github.com/itversity)
+setup vs code workspace for extracted repo.
+
 
 =========
 Databricks: big data processing
