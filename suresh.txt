@@ -6,7 +6,7 @@ setup VS code
 integrate vs code with python by installing python extension on vs code...
 download git repo onto our local machine (https://github.com/itversity)
 setup vs code workspace for extracted repo.
-
+setup python venv 
 
 =========
 Databricks: big data processing
