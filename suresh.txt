@@ -15,5 +15,11 @@ Databricks: big data processing
    data bricks run on cloud platform and utilizes some resorces from underlying gcp project.
 3. open workspace UI and spin up databrick clusters on GCP.(cluster mode, node type, runtime version-scala,spark)
 4. getting started with databrick notebook on cluster. (do developement using python code and use magic commands to interact with databricks fs)
+5. setup databricks cli/sdk or restApi for clients/servers on winodws.
+6. manage databricks clusters/fs/jobs/secreats using cli
+7. copy datasets from local dir to dbfs using cli
+8. process data in dbfs using spark sql in notebooks
+9. spark sql to find daily product revenue from the dbfs files
+
 
 
