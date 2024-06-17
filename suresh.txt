@@ -27,6 +27,20 @@ Databricks: big data processing
                |                    databricks workflow                                 |
     |                               external orchestration (airflow)                                     |
 12. Pass arguments to databricks python notebooks/ sql notebooks
+13. click on dataflow workflow - create job - under job define several tasks and dependency, also utlize cluster type based 
+     task load 
+    --> create and run first databricks job.
+    --> pass arg at task level / job level.
+    --> schedule the db workflow job in Job ui (but usally schedule these jobs using external orchestration i.e. airflow)
+14. real time databricks job
+    --> cleanup database and datasets. Task1
+    --> convert csv to parquet by applying schema. Task2
+    --> create spark sql table on top of parquet files. Task3
+    --> claucate daily product revenue from sql  tables and write result to target in parquet format. Task4
+    --> validata app (tasks) for ELT pipeline using databricks.
+    --> build ELT pipeline using databricks job in workflows.
+    --> run and review execution elt pipeline using databricks job.
+
 
 
 
