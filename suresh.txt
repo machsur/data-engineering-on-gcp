@@ -20,6 +20,13 @@ Databricks: big data processing
 7. copy datasets from local dir to dbfs using cli
 8. process data in dbfs using spark sql in notebooks
 9. spark sql to find daily product revenue from the dbfs files
+10. convert csv to parquet with schema using pyspark.
+
+11. overview of databricks workflows
+    task1(py) --> task2(databricks app) --> task3a/3b(databricks app)--> task4(db app) --> task5(py app)
+               |                    databricks workflow                                 |
+    |                               external orchestration (airflow)                                     |
+12. Pass arguments to databricks python notebooks/ sql notebooks
 
 
 
