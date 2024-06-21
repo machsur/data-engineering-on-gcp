@@ -9,6 +9,12 @@ setup vs code workspace for extracted repo.
 setup python venv 
 
 =========
+Dataproc: big data processing
+1. enable api 
+2. create dataproc cluster on vm/gke.
+3. validate ssh connectivity to master node vm of dataproc cluster and allocate static ip to it.
+
+=========
 Databricks: big data processing
 1. signup for databricks from marketplace to use on GCP. then page redirected to workspaces.
 2. create databricks workspace on GCP
