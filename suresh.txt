@@ -9,10 +9,21 @@ setup vs code workspace for extracted repo.
 setup python venv 
 
 =========
+BigQuery: has capabilities data engineering, bi tools, AI/ML
+> native tables
+> external tables - gcs, s3/blob(so bq is multicloud).
+
+
+
+===========
 Dataproc: big data processing
 1. enable api 
 2. create dataproc cluster on vm/gke.
 3. validate ssh connectivity to master node vm of dataproc cluster and allocate static ip to it.
+4. setup vs code remote window for dataproc vm of master node.
+5. copy local files/ gcs blobs into hdfs on dataproc.
+6. validate pyspark / spark-shell (spark scala) / spark-sql CLI in dataproc cluster.
+
 
 =========
 Databricks: big data processing
